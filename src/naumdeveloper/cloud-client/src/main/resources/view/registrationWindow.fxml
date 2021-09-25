@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="297.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.haazad.cloud.client.gui.controller.RegistrationFormController">
+   <children>
+      <TextField fx:id="loginField" layoutX="243.0" layoutY="51.0" onAction="#register" prefHeight="25.0" prefWidth="278.0" />
+      <PasswordField fx:id="passwordField" layoutX="243.0" layoutY="89.0" onAction="#register" prefHeight="25.0" prefWidth="278.0" />
+      <PasswordField fx:id="confirmPasswordField" layoutX="243.0" layoutY="128.0" onAction="#register" prefHeight="25.0" prefWidth="278.0" />
+      <TextField fx:id="emailField" layoutX="243.0" layoutY="167.0" onAction="#register" prefHeight="25.0" prefWidth="278.0" />
+      <Text layoutX="39.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your login *" wrappingWidth="120.13671875" />
+      <Text layoutX="41.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your password *" />
+      <Text layoutX="41.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm your password *" />
+      <Text layoutX="41.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your email *" />
+      <Button layoutX="123.0" layoutY="221.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="120.0" text="Register" />
+      <Button layoutX="346.0" layoutY="221.0" mnemonicParsing="false" onAction="#closeForm" prefHeight="25.0" prefWidth="120.0" text="Close" />
+   </children>
+</AnchorPane>
